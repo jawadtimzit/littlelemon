@@ -10,3 +10,6 @@ Unit Testing:
 
 After activating the environment run: python manage.py test tests
 
+Screnshots under folder:
+images/
+ 
