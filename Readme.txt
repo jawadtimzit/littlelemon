@@ -5,9 +5,9 @@ To Run the aaplication on VS code in your local:
 -Activate environement: While on repo folder littlelemon on VS terminal, run:
     -C:\Users\username\Documents\GitHub\littlelemon>py -m venv venv (This will create and venv folder), once this created run below command
     -C:\Users\username\Documents\GitHub\littlelemon>venv\Scripts\activate 
--Install dependencies: pip install -r requirements.txt 
+-While env is activated and you see (venv) before directory repo folder on VS, Install dependencies: pip install -r requirements.txt 
 -Update SQL Server credentials to match your local (use your SQL server databse name, username, and password) - These are credentials on Datbases block on setting.py.
--While activated and installation of requirements.txt is finished, Run application (venv) C:\Users\username\Documents\GitHub\littlelemon>python manage.py runserver  
+-While activated and installation of requirements.txt is finished, Run application (venv)   C:\Users\username\Documents\GitHub\littlelemon>python manage.py runserver  
 -Test below endpoints, root path http://127.0.0.1:8000/
 
 API endpoints:
