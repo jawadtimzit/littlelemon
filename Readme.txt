@@ -2,8 +2,8 @@ To Run the aaplication on VS code in your local:
 
 -Clone repository and open in VS code (example clone to C:\Users\username\Documents\GitHub)
 -Open terminal and cd to repo folder, once in directory where you cloned the application : example C:\Users\username\Documents\GitHub\littlelemon>
--Activate environement while on repo folder littlelemon, by runing :
-    -C:\Users\username\Documents\GitHub\littlelemon>python -m venv venv (This will create and venv folder), once this created run below command
+-Activate environement: While on repo folder littlelemon on VS terminal, run:
+    -C:\Users\username\Documents\GitHub\littlelemon>py -m venv venv (This will create and venv folder), once this created run below command
     -C:\Users\username\Documents\GitHub\littlelemon>venv\Scripts\activate 
 -Install dependencies: pip install -r requirements.txt 
 -Update SQL Server credentials to match your local (use your SQL server username and password)
